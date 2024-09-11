@@ -41,3 +41,24 @@ export const testimonials = [
       "Dept. of Computer Science and Engineering, Indian Institute of Technology Bombay",
   },
 ];
+
+export const socialMedia = [
+  {
+    id: 1,
+    name: "GitHub",
+    img: "/git.svg",
+    url: "https://github.com/AayushGupta69",
+  },
+  {
+    id: 2,
+    name: "Twitter",
+    img: "/twit.svg",
+    url: "https://x.com/AayushGupta69",
+  },
+  {
+    id: 3,
+    name: "LinkedIn",
+    img: "/link.svg",
+    url: "https://www.linkedin.com/in/aayush-gupta-works/",
+  },
+];
