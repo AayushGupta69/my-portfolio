@@ -46,13 +46,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/AayushGupta69",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/AayushGupta69",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/aayush-gupta-works/",
   },
 ];
