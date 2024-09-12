@@ -1,4 +1,4 @@
-import Footer from "@/components/Footer";
+const Footer = dynamic(() => import("@/components/Footer"));
 import Hero from "@/components/Hero";
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
   ssr: false,
