@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Experience = () => {
   return (
-    <div id="work-experience" className="py-20 w-full">
+    <section id="work-experience" className="py-20 w-full">
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
@@ -43,7 +43,7 @@ const Experience = () => {
           </Button>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

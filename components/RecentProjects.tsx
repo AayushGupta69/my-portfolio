@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20" id="projects">
+    <section className="py-20" id="projects">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">my recent projects</span>
@@ -84,7 +84,7 @@ const RecentProjects = () => {
           </a>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
