@@ -1,4 +1,5 @@
 const Footer = dynamic(() => import("@/components/Footer"));
+const Experience = dynamic(() => import("@/components/Experience"));
 import Hero from "@/components/Hero";
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
   ssr: false,
@@ -14,6 +15,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Experience />
         <RecentProjects />
         <Testimonials />
         <Footer />
