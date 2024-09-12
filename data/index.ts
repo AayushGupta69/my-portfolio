@@ -23,14 +23,14 @@ export const testimonials = [
       "Aayush consistently demonstrated exceptional dedication and efficiency, ensuring all tasks were completed promptly. Aayush is a true team player and brings great value to any project he is involved in.",
     name: "Sadam Hussain",
     profile: "/Sadam Hussain.png",
-    title: "M.Tech student at NIT Warangal, Ex-SDE at IIT Bombay",
+    title: "M.Tech student at NIT Warangal, Ex-SDE Intern at IIT Bombay",
   },
   {
     quote:
       "Throughout his internship, Aayush has consistently demonstrated exceptional timeliness and efficiency. His keen understanding of task urgency has resulted in swift and reliable deliveries. Aayush possesses a remarkable ability to quickly grasp new feature workflows, allowing him to contribute meaningfully. His cooperative nature and proactive approach have been invaluable assets to our team. Based on his performance, I wholeheartedly recommend Aayush for software development roles. I am confident that he will bring significant value to any position he undertakes, leveraging his technical competence, adaptability, and commitment to excellence.",
     name: "Nishant Wankhede",
     profile: "/Nishant Wankhede.png",
-    title: "M.Tech student at IIT Delhi, Ex-SDE at IIT Bombay",
+    title: "M.Tech student at IIT Delhi, Ex-SDE Intern at IIT Bombay",
   },
   {
     quote:
