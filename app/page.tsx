@@ -1,9 +1,12 @@
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import RecentProjects from "@/components/RecentProjects";
+const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
+  ssr: false,
+});
 import Testimonials from "@/components/Testimonials";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
+import dynamic from "next/dynamic";
 
 export default function Home() {
   return (
