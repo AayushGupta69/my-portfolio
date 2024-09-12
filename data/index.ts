@@ -46,7 +46,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Developer Intern - Multyfi",
-    desc: "Developed a comprehensive Analytics ecosystem for monitoring the performance of proprietary trading algorithms, optimized Paper Trading System performance, enchanced KYC processes and created internal tools for reconciliation of data using technologies like Next.js, Node.js, Material UI and MongoDB.",
+    desc: "Developed a comprehensive Analytics ecosystem for visualizing the performance of proprietary trading algorithms, optimized Paper Trading System performance, enchanced KYC processes and created internal tools for reconciliation of data using technologies like Next.js, Node.js, Material UI and MongoDB.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
