@@ -1,3 +1,5 @@
+"use client";
+
 const Footer = dynamic(() => import("@/components/Footer"));
 const Experience = dynamic(() => import("@/components/Experience"));
 import Hero from "@/components/Hero";
