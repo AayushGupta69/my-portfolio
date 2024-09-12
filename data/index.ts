@@ -12,7 +12,14 @@ export const projects = [
     title: "Medium Clone",
     des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architechture.",
     img: "/p1.svg",
-    iconLists: ["/react.svg", "/tailwind.svg", "/ts.svg"],
+    iconLists: [
+      "/react.svg",
+      "/tailwind.svg",
+      "/ts.svg",
+      "/workers.svg",
+      "/prisma.svg",
+      "/postgresql.svg",
+    ],
     link: "https://github.com/AayushGupta69/medium-clone",
   },
 ];
