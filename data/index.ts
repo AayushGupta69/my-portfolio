@@ -42,6 +42,23 @@ export const testimonials = [
   },
 ];
 
+export const workExperience = [
+  {
+    id: 1,
+    title: "Software Developer Intern - Multyfi",
+    desc: "Developed a comprehensive Analytics ecosystem for monitoring the performance of proprietary trading algorithms, optimized Paper Trading System performance, enchanced KYC processes and created internal tools for reconciliation of data using technologies like Next.js, Node.js, Material UI and MongoDB.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Software Developer Intern - IIT Bombay",
+    desc: "Developed and maintained an open-source post-editing tool using the Qt Framework for the Udaan Project, focusing on translation and OCR error correction in Indian languages.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+  },
+];
+
 export const socialMedia = [
   {
     id: 1,
