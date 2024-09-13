@@ -53,6 +53,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Software Developer Intern - Multyfi",
+    date: "July 2024 to August 2024 · 2 mos",
     desc: "Developed a comprehensive Analytics ecosystem for visualizing the performance of proprietary trading algorithms, optimized Paper Trading System performance, enchanced KYC processes and created internal tools for reconciliation of data using technologies like Next.js, Node.js, Material UI and MongoDB.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -60,6 +61,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Software Developer Intern - IIT Bombay",
+    date: "July 2023 to July 2024 · 1 yr",
     desc: "Developed and maintained an open-source post-editing tool using the Qt Framework for the Udaan Project, focusing on translation and OCR error correction in Indian languages.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
