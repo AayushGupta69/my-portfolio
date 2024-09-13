@@ -2,6 +2,7 @@
 
 const Footer = dynamic(() => import("@/components/Footer"));
 const Experience = dynamic(() => import("@/components/Experience"));
+import Approach from "@/components/Approach";
 import Hero from "@/components/Hero";
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
   ssr: false,
@@ -20,6 +21,7 @@ export default function Home() {
         <Experience />
         <RecentProjects />
         <Testimonials />
+        <Approach />
         <Footer />
       </div>
     </main>
