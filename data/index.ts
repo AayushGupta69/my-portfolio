@@ -112,6 +112,14 @@ export const testimonials = [
     title:
       "Dept. of Computer Science and Engineering, Indian Institute of Technology Bombay",
   },
+  {
+    quote:
+      "I highly recommend Aayush for his exceptional technical expertise and innovative approach to software development. He has consistently demonstrated the ability to design and implement scalable, efficient, and user-friendly solutions, resulting in significant improvements in performance and productivity. Aayush's strong problem-solving skills, attention to detail, and commitment to excellence make him a valuable asset to any organization. He is a collaborative team player with excellent communication skills, able to effectively translate complex technical concepts into actionable insights. I strongly endorse Aayush for any opportunity, and I am confident he will continue to drive innovation and deliver outstanding results.",
+    name: "Sagar Vats",
+    profile: "/Sagar Vats.png",
+    title:
+      "CTO Multyfi | Ex- SDE Amazon | Won 8 National Hackathons | Raised Funds from NIC | Algo Trader",
+  },
 ];
 
 export const workExperience = [
