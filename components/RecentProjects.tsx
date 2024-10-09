@@ -5,6 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const RecentProjects = () => {
   return (
@@ -32,7 +33,7 @@ const RecentProjects = () => {
                 <Image
                   src={item.img}
                   alt={item.title}
-                  className="z-10 absolute bottom-1"
+                  className={cn("z-10 absolute", item.className)}
                   width={360}
                   height={200}
                 />
@@ -75,7 +76,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    {item.text}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
