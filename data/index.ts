@@ -76,7 +76,8 @@ export const projects = [
     id: 1,
     title: "Medium Clone",
     des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architechture.",
-    img: "/p1.svg",
+    img: "/p1.png",
+    className: "bottom-1",
     iconLists: [
       "/react.svg",
       "/tailwind.svg",
@@ -85,7 +86,25 @@ export const projects = [
       "/prisma.svg",
       "/postgresql.svg",
     ],
+    text: "Check Github Link",
     link: "https://github.com/AayushGupta69/medium-clone",
+  },
+  {
+    id: 2,
+    title: "LiveDocs",
+    des: "Google Docs clone built with Next.js to handle the user interface, Liveblocks for real-time features and styled with TailwindCSS.",
+    img: "/p2.png",
+    className: "-bottom-16",
+    iconLists: [
+      "/react.svg",
+      "/next.svg",
+      "/tailwind.svg",
+      "/ts.svg",
+      "/liveblocks.webp",
+      "/c.svg",
+    ],
+    text: "Check Live Site",
+    link: "https://live-docs-aayushgupta69.vercel.app/",
   },
 ];
 
