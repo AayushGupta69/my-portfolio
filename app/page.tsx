@@ -3,7 +3,7 @@
 const Footer = dynamic(() => import("@/components/Footer"));
 const Experience = dynamic(() => import("@/components/Experience"));
 import Approach from "@/components/Approach";
-import Grid from "@/components/Grid";
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
 import Hero from "@/components/Hero";
 const RecentProjects = dynamic(() => import("@/components/RecentProjects"), {
   ssr: false,
