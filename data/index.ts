@@ -73,21 +73,21 @@ export const gridItems = [
 
 export const projects = [
   {
-    id: 1,
-    title: "Medium Clone",
-    des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architechture.",
-    img: "/p1.png",
-    className: "bottom-1",
+    id: 3,
+    title: "SarvaBazaar",
+    des: "An e-commerce platform featuring a robust CMS for seamless content management and a store powered by Next.js, ShadCN UI, Turborepo, and TailwindCSS.",
+    img: "/p3.png",
+    className: "-bottom-16",
     iconLists: [
-      "/react.svg",
+      "/next.svg",
       "/tailwind.svg",
       "/ts.svg",
-      "/workers.svg",
+      "/c.svg",
       "/prisma.svg",
       "/postgresql.svg",
     ],
     text: "Check Github Link",
-    link: "https://github.com/AayushGupta69/medium-clone",
+    link: "https://github.com/AayushGupta69/sarvabazaar",
   },
   {
     id: 2,
@@ -106,6 +106,23 @@ export const projects = [
     text: "Check Live Site",
     link: "https://live-docs-aayushgupta69.vercel.app/",
   },
+  {
+    id: 1,
+    title: "Medium Clone",
+    des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architecture.",
+    img: "/p1.png",
+    className: "bottom-1",
+    iconLists: [
+      "/react.svg",
+      "/tailwind.svg",
+      "/ts.svg",
+      "/workers.svg",
+      "/prisma.svg",
+      "/postgresql.svg",
+    ],
+    text: "Check Github Link",
+    link: "https://github.com/AayushGupta69/medium-clone",
+  }
 ];
 
 export const testimonials = [
