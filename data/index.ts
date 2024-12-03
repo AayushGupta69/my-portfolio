@@ -109,7 +109,7 @@ export const projects = [
   {
     id: 1,
     title: "Medium Clone",
-    des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architechture.",
+    des: "This is a clone of a popular blogging platform Medium. It is built using modern web technologies and follows a fullstack architecture.",
     img: "/p1.png",
     className: "bottom-1",
     iconLists: [
