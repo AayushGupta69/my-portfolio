@@ -73,6 +73,22 @@ export const gridItems = [
 
 export const projects = [
   {
+    id: 4,
+    title: "Real Scout",
+    des: "A minimal and modern Real Estate mobile application built with React Native, Expo, TypeScript, Appwrite and TailwindCSS.",
+    img: "/p4.webp",
+    className: "-bottom-13",
+    iconLists: [
+      "/react.svg",
+      "/tailwind.svg",
+      "/ts.svg",
+      "/aw.svg",
+      "/expo.svg"
+    ],
+    text: "Check Github Link",
+    link: "https://github.com/AayushGupta69/real-scout",
+  },
+  {
     id: 3,
     title: "SarvaBazaar",
     des: "An e-commerce platform featuring a robust CMS for seamless content management and a store powered by Next.js, ShadCN UI, Turborepo, and TailwindCSS.",
